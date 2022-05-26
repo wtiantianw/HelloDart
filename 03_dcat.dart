@@ -23,7 +23,7 @@ Future<void> dcat(List<String> paths, {bool showLineNumbers = false}) async {
     print('type exit to quit.');
     while (true) {
       stdout.write(
-          '> '); // 这样就不换行了 (https://stackoverflow.com/questions/14073217/print-without-a-newline-in-dart)
+          '> '); // 
       String? line = stdin.readLineSync();
       print('${line}\n');
 
